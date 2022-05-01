@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+}
+
+#img_navbar{
+    width: 40px;
+    margin-right: 20px;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("img/Fondo-index1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.servicios{
+    text-align:center;
+    background-color:RGBA(25,0,0,0.6);
+}
+
+.servicios h1{
+    color:rgb(154, 207, 243);
+}
+
+.servicios p{
+    color:#fff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+
+.card{
+    width: 30%;
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-radius: 2%;
+}
+
+
+
+.footer{
+    margin-top: auto;
+    text-align:center;
+    align-items:center;
+    margin:auto;
+}
+
+#contacto {
+    bottom:0;
+    display: flex;
+    justify-content:center;
+    margin:15px;
+}
+.contacto img{
+    height: 1cm;
+    margin-right: 20px;
+
+}

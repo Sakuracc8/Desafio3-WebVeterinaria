@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+}
+
+#img_navbar{
+    width: 40px;
+    margin-right: 20px;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("img/Fondo-index1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contacto{
+    text-align:center;
+    font-size:larger;
+    background-color:RGBA(25,0,0,0.6);
+}
+
+.contacto h1{
+    color:rgb(154, 207, 243);
+}
+
+.contacto p{
+    color:#fff;
+    background-color:rgb(21, 103, 197);
+}
+
+.formulario{
+    background-color:RGBA(55,0,0,0.3);
+    width:70%;
+    text-align:center;
+    margin:auto;
+    border-radius:10px;
+    border-style:Solid;
+    border-color:rgb(129, 129, 175);
+}
+
+input, textarea{
+outline:none;
+}
+
+textarea{
+max-height: 200px;
+}
+
+.formulario p{
+    color:#fff;
+}
+.nombre{
+    width: 80%;
+}
+
+.telefono{
+    width: 80%;
+}
+
+.email{
+    width: 80%;
+}
+
+.mensaje{
+    width: 80%;
+    padding: 1%;
+}
+
+
+input:focus{
+border-color:rgb(209, 88, 88);
+}
+
+textarea:focus{
+    border-color:rgb(209, 88, 88);
+    }
+
+.footer{
+    margin-top: auto;
+    text-align:center;
+    align-items:center;
+    margin:auto;
+}
+
+#contacto {
+    bottom:0;
+    display: flex;
+    justify-content:center;
+    margin:15px;
+}
+#contacto img{
+    height: 1cm;
+    margin-right: 20px;
+
+}
