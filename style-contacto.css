@@ -14,7 +14,7 @@ header{
 
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url("img/Fondo-index1.jpg");
+    background-image: url("img/fondo.png");
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
@@ -35,7 +35,7 @@ body{
 
 .contacto p{
     color:#fff;
-    background-color:rgb(21, 103, 197);
+    background-color:rgba(21, 103, 197, 0.671);
 }
 
 .formulario{

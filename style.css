@@ -34,7 +34,7 @@ button{
 body{
     font-family:'Times New Roman', Times, serif;
     
-    background-image: url("img/Fondo-index1.jpg");
+    background-image: url("img/fondo.png");
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
@@ -44,19 +44,19 @@ body{
 }
   
 .container{
-    background-color:RGBA(25,0,0,0.6);
+    background-color:rgba(81, 80, 131, 0.521);
     border-style:solid;
     border-radius: 2%;
-    border-color: rgba(19, 18, 18, 0.349);
+    border-color: rgba(180, 67, 67, 0.349);
     text-align: center;
     margin-top: 5%;
     max-width:500px;    
 }
 div > h1{
-    color:rgb(154, 207, 243);
+    color:rgb(0, 0, 0);
 }
 div > h2{
-    color:rgb(236, 120, 120);
+    color:rgb(255, 0, 0);
 }
 
 div > p{
